@@ -1,4 +1,4 @@
-#Pede a entreda de dois numéros e a operação que será feita
+#Pede a entrada de dois numéros e a operação que será feita
 num1 = float(input("Digite o primeiro número: "))
 num2 = float(input("Digite o segundo número: "))
 operador = input("Digite a operação (+, -, *, /): ")
@@ -20,5 +20,5 @@ elif operador == '/':
 else:
     resultado = "Operação inválida."
 
-#Impreime o resultado
+#Imprime o resultado
 print("O resultado é:", resultado)
